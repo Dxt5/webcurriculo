@@ -1,0 +1,121 @@
+.bloco-navegacao{
+    background-color: #ffff;
+    height: 40px;
+    display: flex;
+    box-shadow:0.1em 0.1em 0.1em #d3d3d3;
+}
+.todo-menu{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.todo-menu ul{
+    list-style:none;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.todo-menu ul li{
+    display: inline;
+    margin-top: 10px;
+    height: 100%;
+    
+}
+.opcoes{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.todo-menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    color: #415164;
+    padding: 0px 10px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.todo-menu ul li a:hover{
+    background-color: #415164;
+    color: #ffff;
+}
+.sopraver{
+    width: 100%;
+  
+}
+.sopraver h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #415164;
+}
+.sopraver h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #415164;
+}
+.maior-butao{
+    background-color: #415164;
+    width: 15%;
+    padding: 2%;
+    margin-bottom:5%;
+    margin-left: 40%; 
+}
+.menor-butao{
+    padding: 2%;
+    background-color: #ffff;
+}
+.menor-butao:hover{
+    background-color: #cce6e2;
+}
+.menor-butao a{
+    font-family: 'Roboto', sans-serif;
+    color: #415164;
+    text-decoration: none;
+}
+.menor-butao a:hover{
+    color: #428a80;
+    text-decoration: none;
+}
+
+.banner-rodape{
+    display: flex;
+    align-items: center;
+    background-color: #415164;
+    height: 200px;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+.name-rodape{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+.name-rodape h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20%;
+    color: #9ED0C9;
+}
+.name-rodape h2:hover{
+    text-shadow: 0.03em 0.03em 0.05em #ffff;
+}
+.img-rodape{
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.img-rodape img{
+    margin-left: 5%;
+    width: 10%;
+}
+  
